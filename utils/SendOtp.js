@@ -1,17 +1,12 @@
 import twilio from 'twilio'
+import dotenv from 'dotenv';
+dotenv.config();
 
-// const client = new twilio(
-//   process.env.REMOVED,
-//   process.env.REMOVED
-// );
 
-// const client = new twilio(
-//  'REMOVED',
-//   'REMOVED'
-// );
 const client = new twilio(
- 'REMOVED',
-  'REMOVED'
+  process.env.REMOVED,
+  process.env.REMOVED
+
 );
 
 
