@@ -4,8 +4,8 @@ dotenv.config();
 
 
 const client = new twilio(
-  process.env.REMOVED,
-  process.env.REMOVED
+  process.env.TWILIO_ACCOUNT_SID,
+  process.env.TWILIO_AUTH_TOKEN
 
 );
 
